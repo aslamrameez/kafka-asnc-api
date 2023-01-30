@@ -1,0 +1,10 @@
+
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+kafka:
+  request-reply:
+      send-topics: test-topics
+      reply-topics: test-topics-reply
+      consumer-group: test-topics-group
+      time-out: 5
